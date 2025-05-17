@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Testimonials</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .testimonials-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .testimonial {
+      flex: 1;
+      min-width: 250px;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    .testimonial img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    .testimonial h3 {
+      margin: 10px 0 5px;
+    }
+
+    .stars {
+      color: #f1c40f;
+      margin: 5px 0;
+    }
+
+    .comment {
+      font-style: italic;
+      font-size: 0.95em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="testimonials-container">
+    <div class="testimonial">
+      <img src="M.jpeg" alt="User 1">
+      <h3>Ayanwale mariam</h3>
+      <div class="stars">★★★★★</div>
+      <p class="comment">I've learned how to structure websites using HTML and Flexbox</p>
+    </div>
+
+    <div class="testimonial">
+      <img src="Be.jpg" alt="User 2">
+      <h3>Abdulkareem balikis</h3>
+      <div class="stars">★★★★☆</div>
+      <p class="comment">Understanding CSS properties like Flexbox helped me design layouts easily.</p>
+    </div>
+
+    <div class="testimonial">
+      <img src="A.jpg" alt="User 3">
+      <h3>Junaid azeezat</h3>
+      <div class="stars">★★★★★</div>
+      <p class="comment">The course gave me confidence to build mobile friendly pages with Flexbox tools.</p>
+    </div>
+  </div>
+
+</body>
+</html> 
